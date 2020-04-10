@@ -1,19 +1,13 @@
 import React from 'react';
-import {Button} from '@opr-finance/component-button';
 import {Box} from "@opr-finance/component-box";
+import {Thing} from "@opr-finance/feature-c";
 
 function App() {
   return (
         <Box>
             <Box>Simple box</Box>
             <Box>
-                <Button
-                    onClick={() => {
-                        alert('clicked!');
-                    }}
-                >
-                    Button!
-                </Button>
+                <Thing />
             </Box>
         </Box>
   );
