@@ -1,0 +1,28 @@
+{
+	"name": "root",
+	"private": true,
+    "scripts": {
+      "bootstrap": "lerna bootstrap --hoist",
+      "start": "lerna run start --stream",
+      "tsc": "lerna run tsc --stream",
+      "test": "lerna run test --stream",
+      "watch": "lerna run watch --stream"
+    },
+	"devDependencies": {
+		"lerna": "3.13.1"
+	},
+	"dependencies": {
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/react": "^9.3.2",
+      "@testing-library/user-event": "^7.1.2",
+      "@types/jest": "^24.0.0",
+      "@types/node": "^12.0.0",
+      "@types/react": "^16.9.0",
+      "@types/react-dom": "^16.9.0",
+      "tslib": "1.11.1",
+      "typescript": "~3.7.2",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "styled-components": "^5.1.0"
+	}
+}
