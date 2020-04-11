@@ -15,7 +15,7 @@ npm run start
 ```
 
 ## console 2: start watchers
-These watch changes for packages and components. If any changes, Typescript will recompile packages and CRA apps will pick up new changes.
+This will watch changes for packages and components. If any changes happen, Typescript will recompile packages and CRA apps will pick up new changes.
 ```
 npm run watch
 ```
