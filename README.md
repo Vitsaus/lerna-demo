@@ -3,16 +3,19 @@
 ## initialize repository
 ```
 npm run bootstrap
-npm run tsc
 ```
 
-## start ui applications
+# Running
+You need two terminals. One where react applications are running and one where packages are watched for changes
+
+## console 1: start ui applications
+This will start all CRA applications.
 ```
 npm run start
 ```
 
-## updating components / features
-when you make changes to components or featureus, update symlink contents in all applications, if ui applications are running, they will pick up changes automatically:
+## console 2: start watchers
+These watch changes for packages and components. If any changes, Typescript will recompile packages and CRA apps will pick up new changes.
 ```
-npm run tsc
+npm run watch
 ```

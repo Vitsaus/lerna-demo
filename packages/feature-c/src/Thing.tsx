@@ -4,7 +4,7 @@ import {Box} from "@opr-finance/component-box";
 export const Thing = () => {
     return (
         <Box>
-            Simple feature thing
+            Feature thing
         </Box>
     )
 }
