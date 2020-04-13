@@ -1,5 +1,6 @@
 import { takeEvery, put, call } from 'redux-saga/effects';
 import {LoginActionConstants} from "../types/login";
+import {loginStatusApi} from "../api/login";
 
 export function* watchStartLogin() {
     yield takeEvery(LoginActionConstants.LOGIN_START, handleStartLogin);
@@ -22,5 +23,6 @@ export function* watchCheckLoginStatus() {
 }
 
 export function* handleCheckLoginStatus() {
-    console.log('check login status');
+    const result: boolean = yield call(loginStatusApi);
+    console.log('got result!', result);
 }

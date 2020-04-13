@@ -4,6 +4,6 @@ import {loginReducer} from "@opr-finance/feature-login";
 
 export const rootReducer = combineReducers({
     message: messageReducer,
-    login: loginReducer
+    user: loginReducer
 });
 
