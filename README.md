@@ -1,5 +1,10 @@
 # UI
 
+## install lerna globally
+```
+npm install lerna -g
+```
+
 ## initialize repository
 ```
 npm run bootstrap
