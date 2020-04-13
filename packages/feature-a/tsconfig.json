@@ -21,7 +21,7 @@
     "declaration": true,
     "declarationMap": true,
     "allowSyntheticDefaultImports": true,
-    "experimentalDecorators": true,
+    "experimentalDecorators": true
   },
   "exclude": [
     "lib",

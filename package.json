@@ -1,28 +1,41 @@
 {
-	"name": "root",
-	"private": true,
-    "scripts": {
-      "bootstrap": "lerna bootstrap --hoist",
-      "start": "lerna run --parallel start",
-      "tsc": "lerna run tsc --stream",
-      "test": "lerna run test --stream",
-      "watch": "lerna run --parallel watch"
-    },
-	"devDependencies": {
-		"lerna": "3.13.1"
-	},
-	"dependencies": {
-      "@testing-library/jest-dom": "^4.2.4",
-      "@testing-library/react": "^9.3.2",
-      "@testing-library/user-event": "^7.1.2",
-      "@types/jest": "^24.0.0",
-      "@types/node": "^12.0.0",
-      "@types/react": "^16.9.0",
-      "@types/react-dom": "^16.9.0",
-      "tslib": "1.11.1",
-      "typescript": "~3.7.2",
-      "react": "16.13.1",
-      "react-dom": "16.13.1",
-      "styled-components": "^5.1.0"
-	}
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap --hoist",
+    "start": "lerna run start --stream",
+    "tsc": "lerna run --parallel tsc",
+    "test": "lerna run --parallel test",
+    "watch": "lerna run --parallel watch",
+    "storybook": "start-storybook -p 9009",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addon-knobs": "^5.3.18",
+    "@storybook/addon-notes": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/preset-create-react-app": "^2.1.1",
+    "@storybook/react": "^5.3.18",
+    "@storybook/addon-console": "1.2.1",
+    "@storybook/addon-a11y": "5.3.18",
+    "storybook-addon-jsx": "7.2.0",
+    "lerna": "3.13.1"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "styled-components": "^5.1.0",
+    "tslib": "1.11.1",
+    "typescript": "^3.8.3"
+  }
 }

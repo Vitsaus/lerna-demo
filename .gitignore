@@ -5,3 +5,5 @@
 /packages/**/node_modules/*
 /packages/**/.yarn/*
 /packages/**/.yarn.lock
+/packages/**/*.iml
+.idea
