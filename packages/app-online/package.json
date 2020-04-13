@@ -6,22 +6,24 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "styled-components": "^5.0.1",
-    "typescript": "^3.8.3"
-  },
-  "dependencies": {
     "@types/jest": "24.0.18",
     "@types/node": "12.7.2",
     "@types/react": "16.9.2",
     "@types/react-dom": "16.9.0",
     "@types/react-redux": "^7.1.2",
-    "@opr-finance/feature-login": "0.1.0",
-    "@opr-finance/feature-messages": "0.1.0",
+    "@types/react-router-dom": "^5.1.4",
+    "react-router-dom": "^5.1.2",
     "immer": "^3.2.0",
     "react-redux": "^7.1.1",
     "react-scripts": "^3.4.1",
     "redux": "^4.0.4",
     "redux-saga": "^1.0.5",
     "typesafe-actions": "^5.1.0"
+  },
+  "dependencies": {
+    "@opr-finance/feature-login": "0.1.0",
+    "@opr-finance/feature-messages": "0.1.0",
+    "typescript": "^3.8.3"
   },
   "scripts": {
     "start": "PORT=4003 CI=true react-scripts start",
