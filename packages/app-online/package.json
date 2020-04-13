@@ -23,6 +23,7 @@
   "dependencies": {
     "@opr-finance/feature-login": "0.1.0",
     "@opr-finance/feature-messages": "0.1.0",
+    "@opr-finance/component-grid": "0.1.0",
     "typescript": "^3.8.3"
   },
   "scripts": {
