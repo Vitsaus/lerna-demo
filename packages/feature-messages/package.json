@@ -12,7 +12,8 @@
     "cleanbuild": "rm -r node_modules && npm install && tsc"
   },
   "dependencies": {
-    "@opr-finance/component-box": "0.1.0"
+    "@opr-finance/component-box": "0.1.0",
+    "@opr-finance/component-button": "0.1.0"
   },
   "peerDependencies": {
     "react": ">= 16.13.1 < 17",
