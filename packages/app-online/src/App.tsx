@@ -15,11 +15,9 @@ const App: React.FC = () => {
                     <Link to={"/user/1"}>User</Link>
                 </Grid>
             </GridContainer>
-            <GridContainer>
-                <Route path="/" exact component={FrontPage} />
-                <Route path="/login" component={LoginPage} />
-                <Route path="/user/:id" component={UserPage} />
-            </GridContainer>
+            <Route path="/" exact component={FrontPage} />
+            <Route path="/login" component={LoginPage} />
+            <Route path="/user/:id" component={UserPage} />
             <GridContainer>
                 <Grid width={1/3}>
                     <GridContent>
