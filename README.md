@@ -3,6 +3,7 @@
 ## initialize repository
 ```
 npm run bootstrap
+npm run tsc
 ```
 
 # Running
