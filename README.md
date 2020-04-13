@@ -24,3 +24,24 @@ This will start all CRA applications.
 ```
 npm run start
 ```
+
+# feature usage
+
+## install
+
+```
+- add feature as dependency to package.json
+- npm run bootstrap
+- add sagas to rootSaga
+- add reducer to rootReducer
+- use feature's components where you need them
+```
+
+# component usage
+
+## install
+```
+- add feature as dependency to package.json
+- npm run bootstrap
+- use component's components(doh) where you want
+```
