@@ -1,6 +1,7 @@
 import React, {ReactNode} from "react";
 
-type BoxProps = {
+export type BoxProps = {
+    onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
     children: ReactNode;
 }
 

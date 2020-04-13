@@ -1,5 +1,5 @@
 {
-  "name": "@opr-finance/feature-login",
+  "name": "@opr-finance/component-loader",
   "version": "0.1.0",
   "private": false,
   "files": [
@@ -9,25 +9,25 @@
   "scripts": {
     "watch": "tsc -w",
     "tsc": "tsc",
+    "test": "ts-jest",
     "cleanbuild": "rm -r node_modules && npm install && tsc"
   },
   "dependencies": {
-    "@opr-finance/component-box": "0.1.0",
-    "@opr-finance/component-button": "0.1.0",
-    "@opr-finance/component-loader": "0.1.0"
+    "@opr-finance/component-button": "0.1.0"
   },
   "peerDependencies": {
-    "react": ">= 16.13.1 < 17",
-    "react-dom": ">= 16.13.13 < 17"
+    "react": ">= 16.8.0 < 17",
+    "react-dom": ">= 16.8.0 < 17"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.0",
+    "@types/jest": "^24.9.1",
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
-    "tslib": "1.11.1",
-    "typescript": "~3.7.2",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "ts-jest": "^25.3.1",
+    "tslib": "1.11.1",
+    "typescript": "~3.7.2"
   }
 }
