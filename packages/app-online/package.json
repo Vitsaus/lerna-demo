@@ -14,6 +14,7 @@
     "@types/react": "16.9.2",
     "@types/react-dom": "16.9.0",
     "@types/react-redux": "^7.1.2",
+    "@opr-finance/feature-login": "0.1.0",
     "@opr-finance/feature-messages": "0.1.0",
     "immer": "^3.2.0",
     "react-redux": "^7.1.1",

@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
-    "start": "lerna run start --stream",
+    "start": "lerna run --parallel start",
     "tsc": "lerna run --parallel tsc",
     "test": "lerna run --parallel test",
     "watch": "lerna run --parallel watch",
