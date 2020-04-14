@@ -8,6 +8,8 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "removeComments": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
     "rootDir": ".",
     "baseUrl": ".",
     "paths": {
@@ -20,5 +22,5 @@
     "babelCore": "@babel/core"
   },
   "include": ["packages", "jest-dom/extend-expect"],
-  "exclude": ["node_modules", "dist", "packages/app-*/"]
+  "exclude": ["node_modules/","packages/**/node_modules/", "packages/**/dist/", "packages/app-*/"]
 }

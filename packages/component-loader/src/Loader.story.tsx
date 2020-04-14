@@ -1,9 +1,7 @@
 import { storiesOf } from '@storybook/react';
 import React from 'react';
 
-import { Loader } from './Box';
-import { Button } from '@opr-finance/component-button';
+import { Loader } from './Loader';
 
-storiesOf('Box', module)
-  .add('default', () => <Loader>Hello world!</Loader>)
-  .add('with button', () => <Loader><Button onClick={() => { alert('button click!'); }}>Button!</Button></Loader>)
+storiesOf('Loader', module)
+  .add('default', () => <Loader isLoading={true} />)
